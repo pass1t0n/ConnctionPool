@@ -1,0 +1,21 @@
+# OPOWER Connection Pool Homework
+
+Thanks for your time revisiting my connection pool assignment.  
+The comments regarding the implementation are located in ConnectionPoolImpl.java file
+
+JUnits: 
+	Before executing the JUnits tests set the values in setUp function according to your DB.
+
+Log:
+	Logs are being directed to log.txt file
+	Log level DEBUG and above you can change logging parameters at log4j.cfg file.
+	After executing the JUnits the log file should contain different exception as part of the test.  
+	
+The attached pom.xml contains dependencies to JUnit, EasyMock, MySql and log4j.
+In order to execute the code please use maven commands:
+    mvn compile      # compiles your code in src/main/java
+    mvn test-compile # compile test code in src/test/java
+    mvn test         # run tests in src/test/java for files named Test*.java
+    
+Kind Regards, 
+Chaim Arbiv
